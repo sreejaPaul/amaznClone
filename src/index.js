@@ -2,11 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import reducer, { initialState } from "./reducer";
+import { StateProvider } from "./StateProvider";
+import { SnackbarProvider } from 'notistack';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SnackbarProvider maxSnack={3}>
+      <StateProvider initialState={initialState} reducer={reducer}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </StateProvider>
+    </SnackbarProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

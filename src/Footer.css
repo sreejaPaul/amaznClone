@@ -1,0 +1,29 @@
+.footer {
+    background-color: #232f3e;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+    color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footerContainer > div {
+    margin: 50px 0px;
+}
+
+.footerTitle {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.footerAll > p {
+    margin-bottom: 8px;
+}
