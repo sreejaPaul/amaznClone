@@ -1,6 +1,7 @@
 # Amazon - Clone
 
-![output](https://user-images.githubusercontent.com/88406499/137562430-e610c15a-9c4b-41f8-a36d-f4d5c05ea629.png)
+![amazon](https://user-images.githubusercontent.com/88406499/149125273-0b5425c0-c8db-4405-b8fb-23d5bc7c97be.png)
+
 
 
 Build with React JS, Firebase and Firestore. This web app has these following features:
